@@ -71,16 +71,16 @@ Gracias a estos fundamentos, es posible construir escenas complejas con precisi�
 
 Los modelos de color son sistemas matemáticos que describen cómo representar colores digitalmente.
 
-RGB (Red, Green, Blue)
+1. RGB (Red, Green, Blue)
 
 Es un modelo aditivo basado en la mezcla de luz. Se utiliza en pantallas y dispositivos electrónicos.
 Cada color se obtiene combinando intensidades de rojo, verde y azul.
 
-CMY (Cyan, Magenta, Yellow)
+2. CMY (Cyan, Magenta, Yellow)
 
 Modelo sustractivo utilizado en impresión. Los colores se generan absorbiendo ciertas longitudes de onda de la luz.
 
-HSV (Hue, Saturation, Value)
+3. HSV (Hue, Saturation, Value)
 
 Representa el color en términos más cercanos a la percepción humana:
 
@@ -90,35 +90,54 @@ Saturación: intensidad
 
 Valor: brillo
 
-HSL (Hue, Saturation, Lightness)
+5. HSL (Hue, Saturation, Lightness)
 
 Similar a HSV, pero la luminosidad se calcula de forma distinta, permitiendo un control más intuitivo en diseño digital.
 
-Tutorial básico: iluminación de un cubo en Blender
+# Tutorial: iluminación de un cubo en Blender
 
-(Software desarrollado por la organización Blender Foundation)
+Este ejercicio permite comprender de manera práctica cómo la iluminación y los materiales influyen en la percepción de volumen en un objeto tridimensional. El procedimiento se realiza en el software desarrollado por la organización Blender Foundation.
 
-Abrir Blender y eliminar el objeto inicial si es necesario.
+Procedimiento
 
-Añadir un cubo: menú Add → Mesh → Cube.
+Abrir Blender y preparar la escena
+Iniciar el programa y, si es necesario, eliminar el objeto predeterminado presionando la tecla Supr o Delete.
 
-Insertar una fuente de luz: Add → Light → Point o Sun.
+Crear el objeto a iluminar
+En el menú superior seleccionar Add → Mesh → Cube para insertar un cubo en la escena.
 
-Posicionar la luz para que ilumine una cara del cubo.
+Añadir una fuente de luz
+Ir a Add → Light y elegir el tipo de luz deseado (Point para luz puntual o Sun para luz direccional).
 
-Ajustar la intensidad en el panel de propiedades de la luz.
+Posicionar la iluminación
+Mover la luz utilizando la herramienta de traslación hasta que incida sobre una de las caras del cubo, de modo que se generen zonas iluminadas y sombras.
 
-Asignar un material al cubo:
+Ajustar la intensidad de la luz
+Con la luz seleccionada, ir al panel de propiedades y modificar el parámetro Power o Strength para controlar la intensidad luminosa.
+
+Aplicar un material al cubo
 
 Seleccionar el cubo
 
-Ir a Material Properties
+Abrir la pestaña Material Properties
 
-Cambiar el color base
+Crear un nuevo material
 
-Activar la vista renderizada para observar sombras y reflejos.
+Cambiar el color base según se desee
 
-Con estos pasos se puede comprender cómo la posición de la luz, la intensidad y el material influyen en la percepción de volumen.
+Visualizar el resultado
+Activar el modo Rendered Viewport para observar el efecto final de la iluminación, incluyendo sombras, brillo y variaciones de color.
+
+Resultado esperado
+
+Al finalizar, se podrá apreciar cómo la dirección de la luz, su intensidad y las propiedades del material determinan la forma en que percibimos el volumen y la profundidad del objeto. Este ejercicio introduce los principios básicos del sombreado y la iluminación en gráficos tridimensionales.
+
+# Imagen visual del resultado esperado.
+<img width="1905" height="942" alt="image" src="https://github.com/user-attachments/assets/10de8356-dd66-42ec-8747-56e3d73a6a42" />
+<img width="1441" height="880" alt="image" src="https://github.com/user-attachments/assets/d3ba8de4-3916-47a2-9b67-f608df4398c0" />
+
+
+
 
 ----------------------------------
 # 1.5 Representación y trazo de líneas y polígonos
