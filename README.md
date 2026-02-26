@@ -1,4 +1,4 @@
-# Unidad I. Introducción a la graficación por computadora
+# UNIDAD I. Introducción a la graficación por computadora
 --------------------
 # 1.1 Historia y evolución de la graficación por computadora
 
@@ -135,9 +135,6 @@ Al finalizar, se podrá apreciar cómo la dirección de la luz, su intensidad y 
 # Imagen visual del resultado esperado.
 <img width="1905" height="942" alt="image" src="https://github.com/user-attachments/assets/10de8356-dd66-42ec-8747-56e3d73a6a42" />
 <img width="1441" height="880" alt="image" src="https://github.com/user-attachments/assets/d3ba8de4-3916-47a2-9b67-f608df4398c0" />
-
-
-
 
 ----------------------------------
 # 1.5 Representación y trazo de líneas y polígonos
