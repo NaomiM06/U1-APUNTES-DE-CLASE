@@ -286,3 +286,196 @@ Desventajas:
 4. Angel, E., & Shreiner, D. (2015). Interactive computer graphics: A top-down approach with WebGL (7th ed.). Addison-Wesley.
 
 5. Blender Foundation. (2024). Blender documentation. https://docs.blender.org
+
+--------------------------------------------------------
+# UNIDAD II: Graficación2D.
+# 2.1 Transformación bidimensional
+
+Las transformaciones bidimensionales son operaciones que permiten modificar objetos en un plano (2D). Se utilizan ampliamente en gráficos por computadora, animación, videojuegos y diseño digital.
+
+Estas transformaciones permiten cambiar:
+
+La posición
+El tamaño
+La orientación
+La forma
+
+# 2.1.1 Traslación
+
+La traslación consiste en mover un objeto de un lugar a otro dentro del plano.
+
+Características:
+
+No cambia la forma ni el tamaño del objeto
+Solo modifica su posición
+Se realiza desplazando todos los puntos del objeto en una misma dirección
+
+Ejemplo:
+Mover un objeto hacia arriba, abajo, izquierda o derecha.
+
+# 2.1.2 Escalamiento
+
+El escalamiento permite cambiar el tamaño de un objeto.
+
+Tipos:
+
+Escalamiento uniforme: el objeto crece o se reduce de manera proporcional
+Escalamiento no uniforme: el objeto se deforma al cambiar de tamaño en diferentes direcciones
+
+Características:
+
+Puede agrandar o reducir un objeto
+Puede alterar su proporción si no es uniforme
+
+# 2.1.3 Rotación
+
+La rotación consiste en girar un objeto alrededor de un punto, normalmente el origen.
+
+Características:
+
+No cambia la forma ni el tamaño
+Solo cambia la orientación
+Puede ser en sentido horario o antihorario
+
+Ejemplo:
+Girar una figura como si fuera una aguja del reloj.
+
+# 2.1.4 Sesgado (Shearing)
+
+El sesgado es una transformación que inclina o deforma un objeto.
+
+Características:
+
+Mantiene paralelas algunas líneas
+Cambia la forma del objeto
+Da un efecto de inclinación
+
+Ejemplo:
+Convertir un rectángulo en una figura inclinada tipo paralelogramo.
+
+# 2.2 Representación matricial de las transformaciones bidimensionales
+
+Las transformaciones se pueden representar mediante matrices, lo que facilita su aplicación en sistemas computacionales.
+
+Características:
+
+Permiten aplicar múltiples transformaciones de forma eficiente
+Se pueden combinar varias transformaciones en una sola operación
+Son fundamentales en motores gráficos y animación
+
+Concepto importante:
+
+Se utilizan coordenadas homogéneas para simplificar los cálculos
+
+Aplicaciones:
+
+Videojuegos
+Interfaces gráficas
+Animaciones
+
+<img width="1575" height="748" alt="image" src="https://github.com/user-attachments/assets/c862ae18-5bfe-43c1-ba3a-ff106655578c" />
+
+
+# 2.3 Trazo de líneas curvas
+
+Las curvas permiten representar formas suaves y naturales en gráficos digitales.
+
+Se utilizan en:
+
+Diseño gráfico
+Animación
+Tipografías
+Modelado de objetos
+
+# 2.3.1 Curvas de Bézier
+
+Las curvas de Bézier se construyen a partir de puntos de control.
+
+Características:
+
+Son muy utilizadas en diseño gráfico
+Permiten crear curvas suaves
+No siempre pasan por todos los puntos intermedios
+Son fáciles de manipular visualmente
+
+Aplicaciones:
+
+Diseño vectorial
+Animación
+Software como Illustrator o Photoshop
+
+# 2.3.2 B-Spline
+
+Las curvas B-Spline son una evolución de las curvas de Bézier.
+
+Características:
+
+Mayor control sobre la forma de la curva
+Permiten modificar solo una parte sin afectar toda la curva
+Son más suaves y flexibles
+
+Aplicaciones:
+
+Modelado en 3D
+Animaciones complejas
+Ingeniería y CAD
+
+<img width="1588" height="905" alt="image" src="https://github.com/user-attachments/assets/120d1214-bd18-44e3-b170-ddd089105a02" />
+
+# 2.4 Fractales
+
+Los fractales son figuras geométricas que se repiten a diferentes escalas.
+
+Características:
+
+Autosimilitud (se ven iguales a distintas escalas)
+Generación mediante algoritmos
+Alto nivel de detalle
+
+Ejemplos:
+
+Formas de la naturaleza (montañas, nubes, árboles)
+Conjunto de Mandelbrot
+
+Aplicaciones:
+
+Gráficos por computadora
+Simulación de entornos naturales
+Arte digital
+
+# 2.5 Uso y creación de fuentes de texto
+
+Las fuentes de texto son fundamentales en la representación gráfica.
+
+Tipos de fuentes:
+
+Mapas de bits: basadas en píxeles
+Vectoriales: basadas en curvas (más flexibles)
+
+Características de las fuentes vectoriales:
+
+Escalables sin perder calidad
+Utilizan curvas matemáticas
+Más usadas en diseño moderno
+
+Creación de fuentes:
+
+Diseño de caracteres (glifos)
+Uso de herramientas especializadas
+Exportación a formatos como:
+TTF
+OTF
+
+Aplicaciones:
+
+Interfaces gráficas
+Diseño web
+Aplicaciones móviles
+
+# 📚 Bibliografía 
+- Angel, E., & Shreiner, D. (2015). Interactive computer graphics: A top-down approach with WebGL (7th ed.). Addison-Wesley.
+- Foley, J. D., van Dam, A., Feiner, S. K., & Hughes, J. F. (1996). Computer graphics: Principles and practice (2nd ed.). Addison-Wesley.
+- Gonzalez, R. C., & Woods, R. E. (2018). Digital image processing (4th ed.). Pearson.
+- Hearn, D., & Baker, M. P. (2014). Computer graphics with OpenGL (4th ed.). Pearson.
+- Rogers, D. F. (2001). An introduction to NURBS: With historical perspective. Morgan Kaufmann.
+- Salomon, D. (2006). Curves and surfaces for computer graphics. Springer.
